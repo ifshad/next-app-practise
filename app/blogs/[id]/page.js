@@ -1,12 +1,12 @@
 import React from 'react'
 
 export default function Blog({params}) {
-    const {id, title, description} = params;
-    console.log(id)
+    // const {id, title, description} = params;
+    console.log(params)
   return (
     <div>
-      <h1>{title}</h1>
-      <p>{description}</p>
+      {/* <h1>{id}Title :{title}</h1>
+      <p>{description}</p> */}
     </div>
   )
 }
